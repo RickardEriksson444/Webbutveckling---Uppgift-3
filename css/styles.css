@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size 10px;
+}
+body {
+    font-size: 2rem;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+    
+    
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3.5rem
+}
+
+header {
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(144, 134, 175, 0.2), 
+        rgba(162, 161, 199, 0.3)),
+        url(/img/hero.jpg);
+    
+   
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.heading-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    color: #fff;
+    background-color: rgba(9, 132, 227, 0.6);
+    animation: slideInLeft 3s ease-out;
+}
+
+header a {
+    position: absolute;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-primary {
+    background-color: #0984e3;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 1.5s;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #0984e3;
+    transition-duration: 1.5s;
+}
+
+.info-section {
+    padding: 8rem;
+    text-align: center;
+    
+}
+
+.info-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info-section h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 80rem;
+    padding-top: 0.5rem;
+    border-bottom: 5px solid black;
+}
+
+
+
+
+@keyframes slideInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+        
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        
+    }
+}
+
+@keyframes slideInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+     
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        
+    
+}
+
+
