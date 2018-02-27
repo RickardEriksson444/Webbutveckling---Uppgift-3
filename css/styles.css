@@ -36,6 +36,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative;
+    
 }
 
 .heading-content {
@@ -47,6 +48,7 @@ header {
     color: #fff;
     background-color: rgba(9, 132, 227, 0.6);
     animation: slideInLeft 3s ease-out;
+    border-radius: 2rem;
 }
 
 header a {
@@ -87,9 +89,27 @@ header a {
     margin: 0 auto;
     width: 80rem;
     padding-top: 0.5rem;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #0984e3;
 }
 
+.container-1 {
+    float: left;
+}
+
+.container-1 div {
+    border: 0.1rem #ccc solid;
+    padding: 1rem;
+}
+
+.box-1 {
+    width: 30rem;
+    float: left;
+}
+
+.box-2 { 
+    width: 40rem;
+    float: left;
+}
 
 
 
